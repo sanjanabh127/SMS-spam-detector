@@ -1,14 +1,57 @@
-# Machine_learning-5
-The project applies different machine learning algorithms and compares their performance to highlight strengths and weaknesses in real-world text classification.
+# Machine Learning SMS Classification 📱
 
-📂 Dataset Handling – Importing and preparing SMS text data
+This project applies multiple **machine learning algorithms** to a **real-world SMS text classification task** and compares their performance.  
+The goal is to highlight the strengths and weaknesses of different algorithms in natural language processing (NLP) tasks.
 
-🧹 Preprocessing – Text cleaning, tokenization, stopword removal, and feature extraction (Bag of Words, TF-IDF)
+---
 
-🤖 Model Training – Applying multiple ML algorithms (Naive Bayes, Logistic Regression, SVM, Decision Tree, Random Forest, KNN, etc.)
+## Tech Stack
+- Python 🐍  
+- scikit-learn  
+- Pandas  
+- NumPy  
+- Matplotlib / Seaborn (visualization)  
+- Jupyter Notebook / Google Colab  
 
-📊 Evaluation – Comparing models using accuracy, precision, recall, F1-score, and confusion matrix
+---
 
-📈 Visualization – Performance metrics and comparison charts
+##  Project Overview
+This project demonstrates a **hands-on approach** to applying various machine learning algorithms on SMS text data.  
+The workflow covers **data handling, preprocessing, model training, evaluation, and visualization**.
 
-This project is a hands-on demonstration of how different algorithms perform on a real-world NLP classification task.
+---
+
+##  Project Workflow
+
+1. **Dataset Handling**  
+   - Import and prepare SMS text data for analysis.  
+
+2. **Preprocessing**  
+   - Text cleaning (removing punctuation, lowercasing)  
+   - Tokenization  
+   - Stopword removal  
+   - Feature extraction using **Bag of Words** and **TF-IDF**  
+
+3. **Model Training**  
+   - Train multiple algorithms:  
+     - Naive Bayes  
+     - Logistic Regression  
+     - Support Vector Machine (SVM)  
+     - Decision Tree  
+     - Random Forest  
+     - K-Nearest Neighbors (KNN)  
+     - And others  
+
+4. **Evaluation**  
+   - Compare model performance using:  
+     - Accuracy  
+     - Precision  
+     - Recall  
+     - F1-score  
+     - Confusion matrix  
+
+5. **Visualization**  
+   - Plot performance metrics and comparison charts for easy analysis  
+
+---
+
